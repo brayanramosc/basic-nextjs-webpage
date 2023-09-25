@@ -1,6 +1,10 @@
 import React from 'react';
 import Link from 'next/link';
 
+export const metadata = {
+  title: 'Tienda online'
+}
+
 const ShopLayout = ({ children }) => {
     return (
         <>
@@ -11,7 +15,7 @@ const ShopLayout = ({ children }) => {
                         <Link href={'/shop/categories'} >Categorías</Link>
                     </li>
                     <li>
-                        <Link href={'/shop/categories/computers'} >Productos</Link>
+                        <Link href={'/shop/categories/computers'} >Computadoras</Link>
                     </li>
                 </ul>
             </nav>
