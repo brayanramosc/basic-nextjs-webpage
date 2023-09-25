@@ -1,8 +1,12 @@
+import Users from '@/components/Users';
 import React from 'react';
 
 const page = () => {
     return (
-        <h1>Hallo!</h1>
+        <section>
+            <h1>Hallo!</h1>
+            <Users/>
+        </section>
     )
 }
 
